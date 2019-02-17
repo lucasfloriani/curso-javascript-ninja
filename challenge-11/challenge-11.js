@@ -35,7 +35,7 @@
   'The person has [COUNTER] properties'
   */
   var counter = 0
-  for(field in person) {
+  for(var field in person) {
     console.log('The ' + field + ' of person is ' + person[field])
     counter++
   }
